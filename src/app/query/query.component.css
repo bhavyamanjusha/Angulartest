@@ -1,0 +1,28 @@
+.w3-table{
+    height: 200px;
+    width: 1050px;
+    background-color: peachpuff;
+    border: 3px;
+    margin-left:150px ;
+    margin-top: 80px;
+    font-size: small;
+}
+
+#submit{
+    margin-left: 600px;
+}
+
+.tablehead{
+    text-align: center;
+    font-weight: 300;
+}
+
+h4{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: powderblue;
+    height: 720px;
+}

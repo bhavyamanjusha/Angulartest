@@ -1,0 +1,41 @@
+
+.image1{
+    height: 250px;
+    width: 250px;
+    align-content: center;
+    padding: 30px;
+    margin-left: 170px;
+}
+
+.image2{
+    height: 250px;
+    width: 250px;
+    align-content: center;
+    padding: 30px;
+
+}
+
+.image3{
+    height: 250px;
+    width: 250px;
+    align-content: center;
+    padding: 30px;
+}
+
+h2{
+    text-align: center;
+}
+
+.myPage{
+    background-color: powderblue;
+}
+
+.para{
+    margin-left: 80px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    background-color: powderblue;
+    height: 700px;
+}

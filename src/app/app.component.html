@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<header>
+  meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<div class="w3-top">
+<div class="w3-bar w3-theme-d2 w3-left-align">
+  <a [routerLink]="['/Home']" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Healthify Hub</a>
+<a [routerLink]="['/Contact']" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact Us</a>
+<a [routerLink]="['/Appointment']" class="w3-bar-item w3-button w3-hide-small w3-hover-white"><span class="glyphicon glyphicon-check" id="icon"></span>Place Appointment</a>
+<a [routerLink]="['/View']" class="w3-bar-item w3-button w3-hide-small w3-hover-white">View Appointment</a>
+<a [routerLink]="['/Query']" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Query</a>
+</div>
+</div>
+<router-outlet></router-outlet>
+</header>
+<body id="myPage"> 
+<div class="w3-display-bottomright">
+<table class="w3-table">
+  <tr>
+    <th>Useful links</th>
+    <th>Contact</th>
+  </tr>
+    <tr>
+      <td><a [routerLink]="['/Appointment']" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Place Appointment</a>
+      <td>Washington, United States of America
+      </tr>
+      <tr>
+        <td><a [routerLink]="['/View']" class="w3-bar-item w3-button w3-hide-small w3-hover-white">View Appointment</a>
+      <td><a href="healthub@gmail.com">healthifyhub@gmail.com</a>
+    </tr>
+    <tr>
+      <td><a [routerLink]="['/Query']" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Query</a>
+    <td>Contact : +031 46712310</td>
+  </tr>
+  </table>
+</div>
+<div class="w3-display-bottommiddle">
+  <p class="footer"><b> Healthify Hub, All Rights Reserved (2022) </b></p>
+</div>
+  </body>
+
+  </html>

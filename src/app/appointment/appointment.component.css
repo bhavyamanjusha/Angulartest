@@ -1,0 +1,16 @@
+.container-fluid{
+    font-size: small;
+}
+
+#submit{
+    margin-left: 200px;
+    margin-top: 40px;
+    font-size: 10px;
+    height: 40px;
+    width: 90px;
+}
+
+body{
+    background-color: powderblue;
+    height: 730px;
+}
